@@ -118,7 +118,7 @@
         <img src="@/assets/x.svg" alt="" srcset="" />
       </div>
     </div>
-    <div class="preview flex-1 flex justify-center items-center">
+    <div class="preview bg-white z-20 flex-1 flex justify-center items-center">
       <div
         class="slider"
         :style="{
@@ -204,8 +204,7 @@ export default {
 <style>
 .controls {
   min-width: 320px;
-  overflow: visible;
-  max-width: 100px;
+  max-width: 1000px;
   transition: all 300ms ease;
 }
 .controls .input-label {
